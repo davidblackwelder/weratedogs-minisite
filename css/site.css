@@ -75,3 +75,7 @@ main > .container {
 	bottom: 0;
 	width: 100%;
 }
+
+iframe {
+  height: 80vh;
+}
