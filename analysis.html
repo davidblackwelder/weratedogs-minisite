@@ -66,9 +66,54 @@
   <!-- ==== Main Section ==== -->
   <main class="flex-shrink-0">
     <div class="container">
-      <div class="iframeframe">
-        <iframe src="https://weratedogs-jl.netlify.app/notebooks/index.html?path=wrangle_act.ipynb" width="100%">
-        </iframe>
+      <div class="row row-cols-1 row-cols-lg-2">
+        <div class="col-lg-4 border-end border-2">
+          <h1><span class="logoFont">WeRateDogs</span>: A Data Analysis Project</h1>
+
+          <h2 class="mt-5 border-bottom border-2">Project Overview</h2>
+          <p>
+            Using Python and its libraries, I gathered data from a variety of sources and in a variety of formats,
+            assessed its quality and tidiness, then cleaned it. WeRateDogs is a Twitter account that rates people's dogs
+            with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators,
+            though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "<a
+              href="https://knowyourmeme.com/memes/theyre-good-dogs-brent" target="_blank">they're good dogs
+              Brent</a>" WeRateDogs has over 4 million followers and has received international media coverage.
+          </p>
+
+          <h3 class="mt-5 border-bottom border-2">Skills</h3>
+          <ul class="fa-ul pt-2 checklist">
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Data Gathering
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Data Assessing
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Data Cleaning
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Exploratory Data Analysis
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check-square"></i></span>Data visualizations with Matplotlib and
+              Seaborn
+            </li>
+          </ul>
+
+          <h3 class="mt-5 border-bottom border-2">Insights</h3>
+          <p>golden_retriever and Labrador_retriever make up the majority of the posts (as determined by the image
+            recognition algorithm)</p>
+          <p>Chihuahua have more ratings than German Shepherd</p>
+          <p>The average rating for a Chihuahua is lower than the average rating for a German Shepherd</p>
+
+
+        </div>
+        <div class="col-lg-8 col">
+          <div class="iframeframe">
+            <iframe src="https://weratedogs-jl.netlify.app/notebooks/index.html?path=wrangle_act.ipynb" width="100%">
+            </iframe>
+          </div>
+        </div>
       </div>
     </div>
   </main>
